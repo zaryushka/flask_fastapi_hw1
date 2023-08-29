@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <title>Магазин модной одежды</title>
+</head>
+<body>
+    <header>
+        <h1>Одежда и обувь для комфортной жизни</h1>
+    </header>
+    <nav>
+        <table>
+            <tr>
+                <th><a href="/index/">Главная</a></th>
+                <th><a href="/catalog/">Каталог</a></th>
+                <th><a href="/where_to_buy/">Где купить</a></th>
+                <th><a href="/contacts/">Контакты</a></th>
+            </tr>
+        </table>
+    </nav>
+    <section>
+        {% block content %}
+        {% endblock %}
+    </section>
+    <footer>
+        <p>Указанные на сайте цены не являются публичной офертой и могут быть изменены в любое время.</p>
+    </footer>
+
+</body>
+</html>
