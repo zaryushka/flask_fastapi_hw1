@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Сайт студентов GB</title>
+</head>
+<body>
+    <header>
+        <h1>Шапка сайта</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="/">Главная</a></li>
+            <li><a href="/about">О нас</a></li>
+            <li><a href="/contact">Контакты</a></li>
+        </ul>
+    </nav>
+    <section>
+        {% block content %}
+        {% endblock %}
+    </section>
+    <footer>
+        <p>&copy; Все права защищены.</p>
+    </footer>
+</body>
+</html>
